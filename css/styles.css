@@ -1,0 +1,132 @@
+/* Based Element CSS */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+ 
+/* CSS for Show Element */
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+/* Decoration For Form */
+
+.card {
+    border: 1px solid rgba(167, 164, 164, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-group label {
+    font-size: medium;
+}
+
+.form-group input {
+    border: 1px solid gray;
+    padding: 7px;
+    border-radius: 5px;
+    min-width: 350px; 
+}
+
+.form-group select {
+    border: 1px solid gray;
+    padding: 7px;
+    border-radius: 5px;
+    min-width: 350px; 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Margin and Padding */
+.mb-3 {
+    margin-bottom: 10px;
+}
+.mr-3 {
+    margin-right: 10px;
+}
+.px-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.py-1 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/* Text Alignment */
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Flex CSS */
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* Button and Text CSS */
+
+.btn {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: rgb(156, 0, 148);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-warning {
+    background-color: rgb(206, 135, 2);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-success {
+    color: lightgreen;
+}
+
+.text-danger {
+    color: lightcoral;
+}
+
+.text-warning {
+    color: orange;
+}
+
+.text-secondary {
+    color: lightslategray;
+}

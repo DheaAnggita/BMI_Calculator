@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="d-flex flex-column align-items-center justify-content-center">
+        <div class="text-center">
+            <h1>Check your BMI</h1>
+            <p>Enter your weight and height below to check your BMI results</p>
+        </div>
+        <div>
+            <form action="#" method="GET" class="mb-3" id="form">
+                <div class="form-group mb-3">
+                    <label for="weight">Put your weight in here (KG)</label>
+                    <input required type="number" id="weight" placeholder="Insert your weight..." />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="height">And your height in here (CM)</label>
+                    <input required type="number" id="height" placeholder="Insert your height..." />
+                </div>
+                <div class="d-flex">
+                    <button type="submit" id="submitButton" class="btn btn-primary mr-3" onclick="calculate()">Calculate
+                        BMI</button>
+                    <button type="button" id="resetButton" class="btn btn-warning" onclick="resetForm()">Reset</button>
+                </div>
+            </form>
+            <div id="container" class="hide">
+                <div class="d-flex flex-column card mt-3 px-3 py-1">
+                    <small class="text-secondary">Your Result : </small>
+                    <div class="text-center">
+                        <h1 id="result">22.22</h1>
+                    </div>
+                    <div class="text-center">
+                        <p>Based on your BMI, you are <strong id="type">skinny</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="./script/scripts.js"></script>
+
+</html>
